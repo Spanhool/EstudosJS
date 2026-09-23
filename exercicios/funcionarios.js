@@ -80,7 +80,7 @@ function gerarResumoFuncionarios(funcionarios) {
 const resumo = gerarResumoFuncionarios(funcionarios);
 
 console.log(
-  `Total funcionarios: ${resumo.totalFuncionarios}\nFuncionarios ativos: ${resumo.totalFuncionariosAtivos}\nSalario dos funcionarios ativos: R$ ${resumo.salarioTotalAtivos}\nFuncionários da TI ativos: ${resumo.nomeTIAtivos}\nFuncionario ID 3: ${JSON.stringify(resumo.funcionarioId3)}`,
+  `Total funcionarios: ${resumo.totalFuncionarios}\nFuncionarios ativos: ${resumo.totalFuncionariosAtivos}\nSalário dos funcionarios ativos: R$ ${resumo.salarioTotalAtivos}\nFuncionários da TI ativos: ${resumo.nomeTIAtivos}\nFuncionario ID 3: ${JSON.stringify(resumo.funcionarioId3)}`,
 );
 
 /*
